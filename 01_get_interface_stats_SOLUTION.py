@@ -11,9 +11,9 @@ import requests
 import json
 
 # MISSION: Assign your authentication token obtained from Spark's Developer page
-AUTH = None
+AUTH = "ZDM5NWZkNjktNzBlYy00ZjdmLWJhNjAtNjJlYTA0NWQwMjdlMGY3OTM2ZGItODJj"
 # MISSION: Fill in the Name of the Room in which your message will be posted.
-ROOM_NAME = None
+ROOM_NAME = "TEST"
 
 # the variables below assume the user is leveraging the
 # network programmability lab and accessing csr1000v
@@ -23,9 +23,9 @@ HOST = '198.18.133.218'
 PORT = 2022
 # use the user credentials for your CSR1000V device
 USER = 'admin'
-PASS = 'C1sco12345'
+PASS =   'C1sco12345'
 # XML file to open
-FILE = '01_get_interface_stats.xml'
+FILE = '01_get_interface_stats_SOLUTION.xml'
 
 # Returns the Spark room ID for the user selected Spark room.
 def get_roomID(roomName):
